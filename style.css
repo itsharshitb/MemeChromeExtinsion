@@ -1,0 +1,31 @@
+body{
+    width: 300px;
+    height: auto;
+    background-color: #001626;
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 1px solid lightblue;
+    position: relative;
+}
+
+#next{
+    border: 1px solid lightblue;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #001626;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 0.5rem 0.8rem;
+}
+
+p{
+    display: inner-flex;
+    margin: auto;
+    font-size: 22px;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
